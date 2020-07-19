@@ -96,15 +96,19 @@ header {
 .notification-bell {
 	padding-right: 20px;
 }
-.fa-bell {
-	color: #9e9d9d;
 
+a.bell {
+	display: block;
 }
-.fa.fa-bell {
-	font-size: 25px;
+
+.bell {
+	opacity: 0.4;
+	width: 30px;
+	height: 30px;
 }
-.fa.fa-bell:hover {
-	color: #4a4a4a;
+
+.bell:hover {
+	opacity: 1;
 }
 
 .circle {
@@ -193,7 +197,7 @@ header {
 }
 
 .content-main {
-	height: 36em;
+	height: 33em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
